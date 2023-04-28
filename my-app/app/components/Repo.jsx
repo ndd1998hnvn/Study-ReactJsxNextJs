@@ -6,7 +6,7 @@ async function fetchRepo(name) {
     `https://api.github.com/repos/bradtraversy/${name}`,
     {
       next: {
-        revalidate: 60,
+        revalidate: 120,
       },
     }
   );

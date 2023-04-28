@@ -7,7 +7,7 @@ export const metadata = {
 const AboutPage = () => {
   return (
     <div>
-        <button><Link href='/'>Back</Link></button>
+        <button><Link href='/'> {`<<`}Back to HomePage</Link></button>
         <h1>This is About Page</h1>
         <p>Create by Cop from ASP-FE team</p>
     </div>

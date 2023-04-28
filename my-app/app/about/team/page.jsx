@@ -9,7 +9,7 @@ export const metadata = {
 const TeamPage = () => {
   return (
     <div>
-        <button><Link href='/'>Back</Link></button>
+        <button><Link href='/'>{`<<`}Back to HomePage</Link></button>
         <h1>This is eam Page</h1>
         <p>FrontEnd Team</p>
     </div>
